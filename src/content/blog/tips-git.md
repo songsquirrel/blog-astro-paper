@@ -26,7 +26,7 @@ description:
 3. 具体操作
    
    ```shell
-   gh repo new 
+   gh repo create <remote repo name> --public 
 
    cd <local repo>
    git init
@@ -35,7 +35,7 @@ description:
 
    git add .
    git commit -m "msg"
-   git push
+   git push --set-upstream origin master
    ```
 
 4. 参考文档
