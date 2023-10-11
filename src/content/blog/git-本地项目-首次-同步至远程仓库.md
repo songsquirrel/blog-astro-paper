@@ -1,17 +1,16 @@
 ---
 author: mojj 
 pubDatetime: 2023-10-11T13:11:00Z
-title: Tips About Git
-postSlug: tips-git
+title: git本地项目首次同步至远程仓库
+postSlug: git-本地项目-首次-同步至远程仓库
 featured: true
 draft: false
 tags:
   - git
-description:
-  Some tips about git using.
+  - github cli
+description: 
+    git日常使用，本地项目配置远程仓库，免去网页操作。
 ---
-
-## 本地项目初次同步至远程仓库
 
 1. 现状
    
