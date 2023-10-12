@@ -1,6 +1,6 @@
 ---
 author: mojj 
-pubDatetime: 2023-10-12T10:00:00Z
+pubDatetime: 2023-10-12 10:00
 title: git解决远程仓库存在无用文件问题
 featured: false
 draft: false

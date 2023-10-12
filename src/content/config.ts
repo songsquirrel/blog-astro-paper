@@ -1,4 +1,5 @@
 import { SITE } from "@config";
+import { date } from "astro/zod";
 import { defineCollection, z } from "astro:content";
 
 const blog = defineCollection({
@@ -6,7 +7,8 @@ const blog = defineCollection({
   schema: ({ image }) =>
     z.object({
       author: z.string().default(SITE.author),
-      pubDatetime: z.date(),
+      pubDatetime: z.string().transform((str)=>new Date(str)),
+      test: z.string().optional(),
       title: z.string(),
       postSlug: z.string().optional(),
       featured: z.boolean().optional(),

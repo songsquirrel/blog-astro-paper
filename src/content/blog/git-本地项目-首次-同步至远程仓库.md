@@ -1,6 +1,6 @@
 ---
 author: mojj 
-pubDatetime: 2023-10-11T13:11:00Z
+pubDatetime: 2023-10-11 13:11
 title: git本地项目首次同步至远程仓库
 postSlug: git-本地项目-首次-同步至远程仓库
 featured: true

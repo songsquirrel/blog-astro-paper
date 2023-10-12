@@ -1,6 +1,6 @@
 ---
 author: mojj 
-pubDatetime: 2023-10-11T16:11:00Z
+pubDatetime: 2023-10-11 16:11
 title: git由于网络问题认证github失败
 featured: false
 draft: false
@@ -33,6 +33,6 @@ description:
     国内git clone代码满的解决方案，url前增加 <text>https://ghproxy.com/<text>
     [官网](https://ghproxy.com)
 
-6. 参考文档
+5. 参考文档
    
    1. [github cli manual gh_auth_login](https://cli.github.com/manual/gh_auth_login)

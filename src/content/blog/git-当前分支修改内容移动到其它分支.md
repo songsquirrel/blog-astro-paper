@@ -1,6 +1,6 @@
 ---
 author: mojj 
-pubDatetime: 2023-10-12T08:50:00Z
+pubDatetime: 2023-10-12 08:50
 title: git当前分支修改内容移动到其它分支
 featured: false
 draft: false
