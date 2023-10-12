@@ -27,6 +27,12 @@ export const SOCIALS: SocialObjects = [
     active: true,
   },
   {
+    name: "Bilibili",
+    href: "https://space.bilibili.com/278100543",
+    linkTitle: `${SITE.title} on Bilibili`,
+    active: true,
+  },
+  {
     name: "Mail",
     href: "mailto:wanguchangye@gmail.com",
     linkTitle: `Send an email to ${SITE.title}`,
