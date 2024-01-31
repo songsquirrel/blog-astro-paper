@@ -46,13 +46,13 @@ description:
 
     **问题反思：**  
     1. git管理流程不合理
-       1. fat分支应与release保持一致，只有上线的内容才会被push fat；如存在临时功能也应该从fat新建分支进行开发。
+       1. fat分支应与release保持一致，只有上线的内容才会被push fat；如存在临时功能或下次上线内容也应该从fat新建分支进行开发。
+        确保fat只存在当前版本内容，此版本封版后，再合并下版本内容。
     2. 需完善的部分
        1. release需要有一系列版本分支。（可通过tag标记）
        2. release merge代码时，不同版本间需要有明确merge info。   
        （可通过 git merge --no-ff <branch-name> 每次合并生成一个新commit，更好的追踪代码来源）
     3. 定期清理分支
-
 
 5. 参考文档
    
